@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+}
+
+.images {
+  display: flex;
+}
+
+.images img {
+  width: 500px;
+  height: auto;
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
